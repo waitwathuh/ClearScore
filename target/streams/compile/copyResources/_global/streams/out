@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/nikitawerth/Documents/git/ClearScore2/conf/logback.xml,/Users/nikitawerth/Documents/git/ClearScore2/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/nikitawerth/Documents/git/ClearScore2/conf/messages,/Users/nikitawerth/Documents/git/ClearScore2/target/scala-2.12/classes/messages)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/nikitawerth/Documents/git/ClearScore2/conf/swagger.json,/Users/nikitawerth/Documents/git/ClearScore2/target/scala-2.12/classes/swagger.json)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/nikitawerth/Documents/git/ClearScore2/conf/application.conf,/Users/nikitawerth/Documents/git/ClearScore2/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/nikitawerth/Documents/git/ClearScore2/conf/routes,/Users/nikitawerth/Documents/git/ClearScore2/target/scala-2.12/classes/routes)[0m
