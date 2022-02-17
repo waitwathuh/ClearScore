@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "2c0ae2d7-3d9b-44fc-8d7a-6049303e4ad4",
+		"name": "ClearScore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost/creditcards",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Smith\",\n  \"creditScore\": 500,\n  \"salary\": 28000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/creditcards",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"creditcards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "partner/CSCards",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"John Smith\",\n    \"creditScore\": 500\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://app.clearscore.com/api/global/backend-tech-test/v1/cards",
+					"protocol": "https",
+					"host": [
+						"app",
+						"clearscore",
+						"com"
+					],
+					"path": [
+						"api",
+						"global",
+						"backend-tech-test",
+						"v1",
+						"cards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "partner/ScoredCards",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"John Smith\",\n    \"score\": 341,\n    \"salary\": 18500\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://app.clearscore.com/api/global/backend-tech-test/v2/creditcards",
+					"protocol": "https",
+					"host": [
+						"app",
+						"clearscore",
+						"com"
+					],
+					"path": [
+						"api",
+						"global",
+						"backend-tech-test",
+						"v2",
+						"creditcards"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
